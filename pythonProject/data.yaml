@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Pleura']
+
+roboflow:
+  workspace: degree
+  project: ultrasound-uien0
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/degree/ultrasound-uien0/dataset/1
